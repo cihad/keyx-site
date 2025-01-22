@@ -1,0 +1,38 @@
+.slot_146_48 {
+  display: flex;
+  width: 274px;
+  height: 112px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background: url(<path-to-image>) lightgray 0% 0% / 50px 50px repeat;
+  overflow: hidden;
+}
+
+.children_146_50 {
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: normal;
+  text-transform: none;
+  letter-spacing: 0px;
+  color: rgba(0, 122, 255, 1);
+
+  .children {
+    font-weight: 400;
+  }
+}
+
+.frame58_146_49 {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fff;
+  overflow: hidden;
+}

@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "keyx.keyx-vscode-extension",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}

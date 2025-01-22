@@ -1,0 +1,25 @@
+{
+  "watch": [
+    "package.json"
+  ],
+  "exec": "pnpm i && pnpm supabase start && next dev -p 5000",
+  "ext": "json",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    ".next",
+    "dist",
+    "build",
+    "coverage"
+  ],
+  "delay": "1000",
+  "events": {
+    "start": "cls || clear",
+    "crash": "echo 'Application crashed - waiting for changes...'",
+    "restart": "echo 'Restarting due to changes...'"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "restartable": "rs"
+}
