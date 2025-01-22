@@ -7,7 +7,7 @@ export default async function Resources({ params, searchParams }) {
   let { page = 1 } = await searchParams;
   page = +page;
   const supabase = await createClient();
-  const itemsPerPage = 1;
+  const itemsPerPage = 16;
   const {
     data: resources,
     count,
